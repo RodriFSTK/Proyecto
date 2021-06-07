@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+
+}
+
+.Navegacion{
+    font-size: 50%;
+    padding: auto;
+    background: pink;
+    display: flex;
+    color: pink;
+    
+}
+.Navegacion li a{
+    color: rgb(102, 31, 168);
+    text-decoration: none;
+    
+}
+ul, ol {
+list-style: none;  
+
+}
+
+.nav li a{
+background-color: pink;
+color: rgb(102, 31, 168);
+width: 100px;
+padding: 10px 15px;
+display: block;
+
+}
+
+.nav > li {
+    float: left;
+   
+}
+
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+
+.nav li:hover > ul {
+    display: block;
+    
+}
+
+
+.Destacado{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    margin-top: 1%;
+}
+
+
+.footer {
+    border-top: 5px solid palevioletred;
+    padding: 2em 3em;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.Carrusel{
+    width: 75%;
+    margin-top: 1%;
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+
+.Derechos{
+    color: white;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.Derechos a{
+    color: black;
+    text-decoration: none;
+}
+.Info{
+    padding: 15px;
+    background-color: black;
+}
+
+.Info h4{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.Contactanos h7{
+    text-decoration: none;
+    color: white;
+}
+
+.Contactanos ul{
+    color: white;
+    text-align: end;
+}
+
+.Medios{
+    display: flex;
+    display: block;
+    color: white;
+    text-align: center;
+
+}
