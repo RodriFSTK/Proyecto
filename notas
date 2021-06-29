@@ -1,3 +1,14 @@
+
+
+<div class="banner"> 
+				<a href="./Index.html"> 
+					<img src="Destacados/logo.jpg.png" alt="logo">
+					</a>
+				</div>
+
+
+
+
 <footer class="footer">
     <div class="Informacion">
         <ul>
@@ -78,3 +89,34 @@
     
         </button>
     </div>
+
+
+
+.Info{
+    padding: 1px;
+    background-color: black;
+}
+
+.Info h4{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.Contactanos h7{
+    text-decoration: none;
+    color: white;
+}
+
+.Contactanos ul{
+    color: white;
+    text-align: end;
+}
+
+.Medios{
+    display: flex;
+    display: block;
+    color: white;
+    text-align: center;
+
+}
